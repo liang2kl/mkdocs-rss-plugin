@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:atom="https://www.w3.org/2005/Atom"
+  xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <!-- Mandatory elements -->
+    <title>MkDocs RSS Plugin</title>
+    <description>Documentation about the MkDocs RSS Plugin</description>
+    <link>https://guts.github.io/mkdocs-rss-plugin</link>
+    <atom:link href="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Optional elements -->
+        <author>Julien M. (Guts)</author>
+    <category>None</category>
+    <docs>https://github.com/guts/mkdocs-rss-plugin/</docs>
+    
+
+    <!-- Timestamps and frequency -->
+    <pubDate>Tue, 07 Jul 2020 16:09:57 -0000</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2020 16:09:57 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    <!-- Credits -->
+    <generator>MkDocs RSS plugin - v0.1.0</generator>
+
+    <!-- Feed illustration -->
+    
+
+    <!-- Entries -->
+    
+    <item>
+      <title>Configuration</title>
+      <description>Configuration steps for MkDocs RSS plugin</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
+      <pubDate>Tue, 07 Jul 2020 16:09:58 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
+      
+    </item>
+    
+    <item>
+      <title>The MkDocs RSS Plugin</title>
+      <description>Homepage of MkDocs RSS plugin</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/</link>
+      <pubDate>Tue, 07 Jul 2020 16:09:57 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
+      
+    </item>
+    
+  </channel>
+</rss>
