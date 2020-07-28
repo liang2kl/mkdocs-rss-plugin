@@ -6,7 +6,7 @@
     <!-- Mandatory elements -->
     <title>MkDocs RSS Plugin</title>
     <description>Documentation about the MkDocs RSS Plugin</description>
-    <link>https://guts.github.io/mkdocs-rss-plugin</link>
+    <link>https://guts.github.io/mkdocs-rss-plugin/</link>
     <atom:link href="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
 
     <!-- Optional elements -->
@@ -16,32 +16,38 @@
     
 
     <!-- Timestamps and frequency -->
-    <pubDate>Wed, 08 Jul 2020 13:10:03 -0000</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2020 13:10:03 -0000</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2020 16:59:57 -0000</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2020 16:59:57 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
-    <generator>MkDocs RSS plugin - v0.2.0</generator>
+    <generator>MkDocs RSS plugin - v0.3.0</generator>
 
     <!-- Feed illustration -->
     
+    <image>
+      <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
+      <title>MkDocs RSS Plugin - Illustration</title>
+      <link>https://guts.github.io/mkdocs-rss-plugin/</link>
+    </image>
+    
 
     <!-- Entries -->
+    
+    <item>
+      <title>Configuration</title>
+      <description>Configuration steps and settings for MkDocs RSS plugin</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
+      <pubDate>Tue, 28 Jul 2020 16:59:00 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
+      
+    </item>
     
     <item>
       <title>Home</title>
       <description>MkDocs RSS plugin: generate RSS feeds for your static website using git log.</description>
       <link>https://guts.github.io/mkdocs-rss-plugin/</link>
       <pubDate>Wed, 08 Jul 2020 13:09:21 -0000</pubDate>
-      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
-      
-    </item>
-    
-    <item>
-      <title>Configuration</title>
-      <description>Configuration steps and settings for MkDocs RSS plugin</description>
-      <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
-      <pubDate>Wed, 08 Jul 2020 13:08:38 -0000</pubDate>
       <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
       
     </item>
