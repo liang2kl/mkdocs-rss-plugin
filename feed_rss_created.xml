@@ -16,12 +16,12 @@
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Mon, 21 Sep 2020 17:31:58 -0000</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2020 17:31:58 -0000</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2020 11:52:17 -0000</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2020 11:52:17 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
-    <generator>MkDocs RSS plugin - v0.6.1</generator>
+    <generator>MkDocs RSS plugin - v0.7.0</generator>
 
     <!-- Feed illustration -->
     
@@ -33,6 +33,16 @@
     
 
     <!-- Entries -->
+    
+    <item>
+      <title>Changelog for the MkDocs RSS Plugin</title>
+      <description>Changelog of the RSS plugin for MkDocs.</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/changelog/</link>
+      <pubDate>Tue, 22 Sep 2020 11:51:19 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_created.xml">MkDocs RSS Plugin</source>
+      <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/changelog/</guid>
+      <enclosure url="None" type="None" />
+    </item>
     
     <item>
       <title>Home</title>
@@ -52,6 +62,16 @@
       <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_created.xml">MkDocs RSS Plugin</source>
       <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/configuration/</guid>
       <enclosure url="https://svgsilh.com/png-512/97849.png" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Changelog for the MkDocs RSS Plugin</title>
+      <description>Changelog of the RSS plugin for MkDocs.</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/changelog/</link>
+      <pubDate>Tue, 22 Sep 2020 11:51:19 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_created.xml">MkDocs RSS Plugin</source>
+      <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/changelog/</guid>
+      <enclosure url="None" type="None" />
     </item>
     
     <item>
