@@ -1,6 +1,0 @@
-# Documentation
-# -----------------------
-mkdocs-bootswatch>=1,<2
-mkdocs-minify-plugin==0.3.*
-pygments>=2.5,<3
-pymdown-extensions>=7,<9
