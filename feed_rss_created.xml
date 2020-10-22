@@ -16,8 +16,8 @@
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Thu, 22 Oct 2020 17:29:55 -0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2020 17:29:55 -0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2020 17:53:51 -0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2020 17:53:51 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -41,7 +41,7 @@
       <pubDate>Thu, 22 Oct 2020 17:18:38 -0000</pubDate>
       <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_created.xml">MkDocs RSS Plugin</source>
       <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/</guid>
-      <enclosure url="https://guts.github.io/mkdocs-rss-plugin/rss_icon.svg" type="image/svg+xml" length="1110" />
+      <enclosure url="https://guts.github.io/mkdocs-rss-plugin/rss_icon.svg" type="image/svg+xml" length="1109" />
     </item>
     
     <item>
