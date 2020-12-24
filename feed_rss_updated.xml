@@ -19,8 +19,8 @@
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Thu, 24 Dec 2020 18:09:34 -0000</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 18:09:34 -0000</lastBuildDate>
+    <pubDate>Thu, 24 Dec 2020 18:48:12 -0000</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 18:48:12 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -38,6 +38,18 @@
     <!-- Entries -->
     
     <item>
+      <title>Home</title>
+      <description>MkDocs RSS plugin: generate RSS feeds for your static website using git log.</description>
+      <link>https://guts.github.io/mkdocs-rss-plugin/</link>
+      <pubDate>Thu, 24 Dec 2020 18:47:22 -0000</pubDate>
+      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
+      <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/</guid>
+      
+      <enclosure url="https://guts.github.io/mkdocs-rss-plugin/rss_icon.svg" type="image/svg+xml" length="1109" />
+      
+    </item>
+    
+    <item>
       <title>Settings</title>
       <description>Configuration steps and settings for MkDocs RSS plugin</description>
       <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
@@ -46,18 +58,6 @@
       <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/configuration/</guid>
       
       <enclosure url="https://svgsilh.com/png-512/97849.png" type="image/png" length="19753" />
-      
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <description>MkDocs RSS plugin: generate RSS feeds for your static website using git log.</description>
-      <link>https://guts.github.io/mkdocs-rss-plugin/</link>
-      <pubDate>Thu, 22 Oct 2020 17:18:38 -0000</pubDate>
-      <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
-      <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/</guid>
-      
-      <enclosure url="https://guts.github.io/mkdocs-rss-plugin/rss_icon.svg" type="image/svg+xml" length="1109" />
       
     </item>
     
