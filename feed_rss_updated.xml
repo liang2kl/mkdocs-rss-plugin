@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0"
   xmlns:atom="https://www.w3.org/2005/Atom"
-  xmlns:dc="https://purl.org/dc/elements/1.1/">
+  xmlns:dc="https://purl.org/dc/elements/1.1/"
+  xmlns:webfeeds=”http://webfeeds.org/rss/1.0″
+  >
+
   <channel>
     <!-- Mandatory elements -->
     <title>MkDocs RSS Plugin</title>
@@ -16,8 +19,8 @@
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Thu, 05 Nov 2020 18:49:08 -0000</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2020 18:49:08 -0000</lastBuildDate>
+    <pubDate>Thu, 24 Dec 2020 17:27:18 -0000</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 17:27:18 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -38,7 +41,7 @@
       <title>Settings</title>
       <description>Configuration steps and settings for MkDocs RSS plugin</description>
       <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
-      <pubDate>Thu, 05 Nov 2020 18:47:47 -0000</pubDate>
+      <pubDate>Thu, 24 Dec 2020 17:25:10 -0000</pubDate>
       <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
       <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/configuration/</guid>
       
