@@ -13,14 +13,14 @@
     <atom:link href="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
 
     <!-- Optional elements -->
-    <managingEditor>Julien M. (Guts)</managingEditor>
+    <managingEditor>Julien M. &lt;dev@ingeoveritas.com&gt;</managingEditor>
     
     <docs>https://github.com/guts/mkdocs-rss-plugin/</docs>
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Thu, 24 Dec 2020 17:55:35 -0000</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 17:55:35 -0000</lastBuildDate>
+    <pubDate>Thu, 24 Dec 2020 18:04:55 -0000</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 18:04:55 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -41,7 +41,7 @@
       <title>Settings</title>
       <description>Configuration steps and settings for MkDocs RSS plugin</description>
       <link>https://guts.github.io/mkdocs-rss-plugin/configuration/</link>
-      <pubDate>Thu, 24 Dec 2020 17:54:44 -0000</pubDate>
+      <pubDate>Thu, 24 Dec 2020 18:04:06 -0000</pubDate>
       <source url="https://guts.github.io/mkdocs-rss-plugin/feed_rss_updated.xml">MkDocs RSS Plugin</source>
       <guid isPermaLink="true">https://guts.github.io/mkdocs-rss-plugin/configuration/</guid>
       
