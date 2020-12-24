@@ -19,8 +19,8 @@
     <language>en</language>
 
     <!-- Timestamps and frequency -->
-    <pubDate>Thu, 24 Dec 2020 17:46:04 -0000</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 17:46:04 -0000</lastBuildDate>
+    <pubDate>Thu, 24 Dec 2020 17:55:35 -0000</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 17:55:35 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     <!-- Credits -->
@@ -30,7 +30,7 @@
     
     <image>
       <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
-      <title>MkDocs RSS Plugin - Illustration</title>
+      <title>MkDocs RSS Plugin</title>
       <link>https://guts.github.io/mkdocs-rss-plugin/</link>
     </image>
     
