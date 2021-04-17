@@ -37,7 +37,24 @@ Lorem ipsum [...]
 </code></pre></div> <p>Since <code>match_path</code> gives you all the power of regular expressions you can have more complex patterns to include multiple directories. For example, to include all pages under both <code>release-notes</code> and <code>articles</code>:</p> <div class=codehilite><pre><span></span><code><span class=nt>plugins</span><span class=p>:</span>
   <span class="p p-Indicator">-</span> <span class=nt>rss</span><span class=p>:</span>
       <span class=nt>match_path</span><span class=p>:</span> <span class=s>&quot;(release-notes|articles)/.*&quot;</span>
-</code></pre></div> <p>Default: <code>.*</code>.</p> <hr> <h2 id=integration>Integration<a class=headerlink href=#integration title="Permanent link">#</a></h2> <h3 id=reference-rss-feeds-in-html-meta-tags>Reference RSS feeds in HTML meta-tags<a class=headerlink href=#reference-rss-feeds-in-html-meta-tags title="Permanent link">#</a></h3> <p>To facilitate the discovery of RSS feeds, it's recomended to add relevant meta-tags into the pages <code>&lt;head&gt;</code>, through template customization in <code>main.html</code> :</p> <div class=codehilite><pre><span></span><code>{% extends &quot;base.html&quot; %}
+</code></pre></div> <p>Default: <code>.*</code>.</p> <h3 id=url-parameters>URL parameters<a class=headerlink href=#url-parameters title="Permanent link">#</a></h3> <p>This option allows you to add parameters to the URLs of the RSS feed items. It works as a dictionary of keys/values that is passed to <a href=https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlencode>Python <em>urllib.parse.urlencode</em></a>.<br> One possible use case is the addition of <a href=https://en.wikipedia.org/wiki/UTM_parameters>Urchin Tracking Module (UTM) parameters</a>:</p> <div class=codehilite><pre><span></span><code><span class=nt>plugins</span><span class=p>:</span>
+  <span class="p p-Indicator">-</span> <span class=nt>rss</span><span class=p>:</span>
+      <span class=nt>url_parameters</span><span class=p>:</span>
+        <span class=nt>utm_source</span><span class=p>:</span> <span class=s>&quot;documentation&quot;</span>
+        <span class=nt>utm_medium</span><span class=p>:</span> <span class=s>&quot;RSS&quot;</span>
+        <span class=nt>utm_campaign</span><span class=p>:</span> <span class=s>&quot;feed-syndication&quot;</span>
+</code></pre></div> <p>Will result in:</p> <div class=codehilite><pre><span></span><code><span class=cp>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</span>
+<span class=nt>&lt;rss&gt;</span>
+    [...]
+    <span class=nt>&lt;item&gt;</span>
+      [...]
+      <span class=nt>&lt;link&gt;</span>https://guts.github.io/mkdocs-rss-plugin/?utm_source=documentation<span class=ni>&amp;amp;</span>utm_medium=RSS<span class=ni>&amp;amp;</span>utm_campaign=feed-syndication<span class=nt>&lt;/link&gt;</span>
+      [...]
+    <span class=nt>&lt;/item&gt;</span>
+    [...]
+  <span class=nt>&lt;/channel&gt;</span>
+<span class=nt>&lt;/rss&gt;</span>
+</code></pre></div> <p>Default: <code>None</code>.</p> <hr> <h2 id=integration>Integration<a class=headerlink href=#integration title="Permanent link">#</a></h2> <h3 id=reference-rss-feeds-in-html-meta-tags>Reference RSS feeds in HTML meta-tags<a class=headerlink href=#reference-rss-feeds-in-html-meta-tags title="Permanent link">#</a></h3> <p>To facilitate the discovery of RSS feeds, it's recomended to add relevant meta-tags into the pages <code>&lt;head&gt;</code>, through template customization in <code>main.html</code> :</p> <div class=codehilite><pre><span></span><code>{% extends &quot;base.html&quot; %}
 
 {% block extrahead %}
   <span class=c>&lt;!-- RSS Feed --&gt;</span>
